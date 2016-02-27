@@ -2,10 +2,10 @@
 title: Missing Brackets
 email: tiagodksp@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  An aspiring web developer's blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-#twitter_username: 
+  Rants and thoughts about an aspiring web developer's journey.
+baseurl: "" # the subpath of the jekyll genererated website
+url: "" # the base hostname & protocol for the website
+#twitter_username: #register twitter missingbrackets
 github_username:  tiagojmartins
 
 # Build settings
