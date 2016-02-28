@@ -10,3 +10,8 @@ github_username:  tiagojmartins
 
 # Build settings
 markdown: kramdown
+
+#Pagination
+paginate: 3
+
+gems: [jekyll-paginate]
