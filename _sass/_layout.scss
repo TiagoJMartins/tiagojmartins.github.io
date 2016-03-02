@@ -1,99 +1,48 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 3px solid $brand-color;
-    border-bottom: 2px solid lighten($brand-color, 25%);
-    min-height: 65px; //default 56px
-    background-color: $brand-color;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+#nav-wrapper {
+    padding: 0 35px 0 35px;
 }
 
-.site-title {
+.navbar-brand {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
     letter-spacing: 1px;
-    margin-bottom: 0;
-    float: left;
-
+    line-height: 23px;
+    
     &,
-    &:hover,
     &:visited {
-        color: white;
+        color: white;    
+    }
+    
+    &:hover {
+        text-decoration: underline;
     }
 }
+ 
+.navbar {
+    min-height: 56px;
+    background-color: $brand-color;
+    border-radius: 0;
+    border-bottom: 1px solid darken($brand-color, 15%);
+}
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: white;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
+.nav {
+    > li {
+        > a {
+            color: white;
+            padding-top: 18px;
+            
+            &:focus,
+            &:hover {
+                text-decoration: underline;
+                background-color: transparent;
             }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
         }
     }
 }
-
 
 
 /**
