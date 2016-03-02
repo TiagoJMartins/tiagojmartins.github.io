@@ -60,6 +60,8 @@
     }
 }
 
+
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
@@ -69,6 +71,12 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    
+    > li {
+        > a {
+            color: lighten($grey-color-light, 10%);
+        }
+    }
 }
 
 .footer-col-wrapper {
