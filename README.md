@@ -7,5 +7,5 @@ All of the website is currently in early-development while I customize most of i
 
 # Current to-do
 
-- Create a custom mobile navigation. It currently uses Jekyll's default and I honestly find it very ugly.
+- Still not happy with current style, will need to further improve it. It seems like the current blue color is too saturated.
 - Whole portfolio needs to be created.
