@@ -16,7 +16,6 @@ $small-font-size:  $base-font-size * 0.875;
 $text-color:       #2b2b2b;
 $background-color: white;
 
-// yellow, red, blue
 
 /**
  * Base Styles
@@ -33,16 +32,19 @@ h1 {
     margin: 0;
     padding-top: 0.67em;
     padding-bottom: 0.67em;
+    font-size: 56px;
+    font-weight: bold;
 }
 
 body,
 html {
     height: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 .skills,
-.experience,
-.social {
+.work,
+.contact {
     // Common styles for sections
     color: white;
 }
@@ -50,22 +52,66 @@ html {
 /**
  * Section Specifics
  **/
- 
+
+a {
+    
+    color: #bbb;
+    
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: #bbb;
+    }
+    
+    i.fa-angle-double-down {
+        display: block;
+        //border: 1px solid #bbb;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        font-size: 2.5rem;
+        padding-top: 1.4rem;
+        padding-left: 1.7rem;
+        background-color: #fff;
+        bottom: 60px;
+        margin-left: -2.5rem;
+        left: 50%;
+        position: absolute;
+        -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+        transition: all 0.2s ease;
+        opacity: 0.8;
+        
+        &:hover {
+            opacity: 1;
+            transform: scale(1.10);
+            -moz-box-shadow: 0 3px 7px 0 rgba(0,0,0,.5);
+            -webkit-box-shadow: 0 3px 7px 0 rgba(0,0,0,.5);
+            box-shadow: 0 3px 7px 0 rgba(0,0,0,.5);
+        }
+    }
+}
+
+
 .intro {
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     color: black;
+    position: relative;
 }
 
 .skills {
+    background-color: $brand-blue;
+}
+
+.work {
     background-color: $brand-yellow;
 }
 
-.experience {
+.contacts {
     background-color: $brand-red;
-}
-
-.social {
-    background-color: $brand-blue;
 }
