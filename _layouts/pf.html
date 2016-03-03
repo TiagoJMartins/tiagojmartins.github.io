@@ -9,16 +9,18 @@
     <title>Tiago Martins - Portfolio</title>
     <meta name="description" content="Showcasing projects, experience and values from the work of Tiago Martins.">
 
-    <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}" type="text/css" />
+    <link rel="stylesheet" href="{{ " /css/pf.css " | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
 
 <body>
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {{ content }}
+    
+    <script type="text/javascript" src="{{ "/js/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/js/pf.js" | prepend: site.baseurl }}"></script>
 </body>
 
 </html>
