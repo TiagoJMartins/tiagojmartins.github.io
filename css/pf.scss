@@ -26,13 +26,14 @@ body {
     font-size: $base-font-size;
     font-family: $base-font-family;
     background-color: $background-color;
+    overflow-x: hidden;
 }
 
 h1 {
     margin: 0;
     padding-top: 1em;
-    padding-bottom: 0.67em;
-    font-size: 70px;
+    padding-bottom: 1em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -47,7 +48,6 @@ html {
 .contacts {
     // Common styles for sections
     color: white;
-    height: 100%;
     width: 100%;
 }
 
@@ -112,6 +112,7 @@ a {
 
 .work {
     color: $brand-2;
+    background-color: #eee;
 }
 
 .contacts {
