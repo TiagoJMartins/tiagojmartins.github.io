@@ -11,8 +11,4 @@ $(document).ready(function() {
     });
     
     
-    // Triangle pattern generator
-    
-    
-    
 });
