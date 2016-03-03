@@ -1,0 +1,71 @@
+---
+# Main SCSS for Portfolio
+---
+@charset "utf-8";
+
+// Variables
+
+$brand-red:        #FB4F4F;
+$brand-blue:       #6CC0E5;
+$brand-yellow:     #FBC93D;
+
+$base-font-size:   16px;
+$base-font-family: "Arial", sans-serif;
+$small-font-size:  $base-font-size * 0.875;
+
+$text-color:       #2b2b2b;
+$background-color: white;
+
+// yellow, red, blue
+
+/**
+ * Base Styles
+ */
+ 
+body {
+    color: $text-color;
+    font-size: $base-font-size;
+    font-family: $base-font-family;
+    background-color: $background-color;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0.67em;
+    padding-bottom: 0.67em;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.skills,
+.experience,
+.social {
+    // Common styles for sections
+    color: white;
+}
+
+/**
+ * Section Specifics
+ **/
+ 
+.intro {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.skills {
+    background-color: $brand-yellow;
+}
+
+.experience {
+    background-color: $brand-red;
+}
+
+.social {
+    background-color: $brand-blue;
+}
