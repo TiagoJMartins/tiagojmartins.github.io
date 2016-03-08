@@ -110,6 +110,13 @@ a {
     background: url(../assets/trpattern.svg);
     color: white;
     position: relative;
+    
+    .subname {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: -2em;
+        margin-bottom: 3.5em;
+    }
 }
 
 .skills {
