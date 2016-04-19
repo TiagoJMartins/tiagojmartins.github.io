@@ -233,10 +233,10 @@
 .previous,
 .next {
     &:hover {
-        color: #82DEC7;
+        color: #82DEC7 !important;
     }
     &:visited {
-        color: #219679;
+        color: #219679 !important;
     }
 }
 
