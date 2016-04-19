@@ -146,6 +146,19 @@
     margin-left: 0;
     list-style: none;
 
+    > h1 {
+        > a {
+            color: #25AB89;
+            
+            &:visited {
+                color: #25AB89;
+            }
+            &:hover {
+                color: #219679;
+            }
+        }
+    }
+
     > li {
         margin-bottom: $spacing-unit;
     }
