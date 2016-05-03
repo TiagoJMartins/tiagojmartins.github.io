@@ -24,6 +24,4 @@ The development of this application was a really great experience. It's a comple
 
 ### [ClapprBoard](clapprboard.tiagomartins.xyz)
 
-![Screenshot][www.tiagomartins.xyz/assets/postimages/clapprboard-login.jpg]
-
-
+![Screenshot](/assets/postimages/clapprboard-login.jpg)
