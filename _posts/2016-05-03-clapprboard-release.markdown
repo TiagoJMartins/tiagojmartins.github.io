@@ -22,6 +22,6 @@ I also wanted to find somewhere to host the application 25/7, which I ended up b
 
 The development of this application was a really great experience. It's a completed Minimum Viable Product and it's ready to start being beta tested and improved upon. There are a lot of creases that need to be ironed out, as with any MVP and a lot of room for improvement and awesome features! 
 
-### [ClapprBoard](clapprboard.tiagomartins.xyz)
+### [ClapprBoard](http://clapprboard.tiagomartins.xyz)
 
 ![Screenshot](/assets/postimages/clapprboard-login.jpg)
