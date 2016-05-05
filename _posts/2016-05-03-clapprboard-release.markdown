@@ -4,6 +4,10 @@ title: "ClapprBoard Release"
 date: 2016-05-03
 ---
 
+### [ClapprBoard](http://clapprboard.tiagomartins.xyz)
+
+![Screenshot](/assets/postimages/clapprboard-login.jpg)
+
 In lieu of the job interview I had, they seemed very interested in me, however, the fact that I'm self taught kind of made them hesitant to invest in me. That is completely understandable, for without any real world experience or even academic training, how can they know I can perform? 
 Well, they launched a simple challenge at me. Create something in two weeks, using the technologies they use everyday. StrongLoop's Loopback, Angular, Gulp, Bootstrap, SASS and a few others made the list, emphasis was also put on responsive web design, REST APIs, best practices of both Javascript and SASS among others. In that note, I set out on creating something that could showcase all of those technologies. I came up with an idea of a TV Show tracking application, it would integrate with a public API to get all the data it needed and it would manage it and cache it to build up the database. 
 
@@ -21,7 +25,3 @@ All in all, I'm pretty happy with how it turned out, I relied heavily on StackOv
 I also wanted to find somewhere to host the application 25/7, which I ended up being able to do on OpenShift. It was a really big headache getting it to work but I finally did it and it's live on OpenShift! They allowed me to also set up a CNAME in order to redirect my domain to theirs, in that way, the application can be accessed through [ClapprBoard.tiagomartins.xyz](ClapprBoard.tiagomartins.xyz). 
 
 The development of this application was a really great experience. It's a completed Minimum Viable Product and it's ready to start being beta tested and improved upon. There are a lot of creases that need to be ironed out, as with any MVP and a lot of room for improvement and awesome features! 
-
-### [ClapprBoard](http://clapprboard.tiagomartins.xyz)
-
-![Screenshot](/assets/postimages/clapprboard-login.jpg)
