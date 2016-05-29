@@ -1,0 +1,29 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<h1 class="projects-header">Projects</h1>
+
+<div class="grid-container">
+    {% for project in site.data.projects.data %}
+        <div class="grid-item">
+            <h4 class="item-title"><a href="{{project.link}}">{{ project.title }}</a></h4>
+            <div class="grid-thumb">
+                <img src="{{ project.thumb }}">
+                <div class="grid-info">
+                    <p class="item-description">
+                        {{ project.description }}
+                    </p>
+                </div>
+            </div>
+            <ul class="item-techs">
+                {% for tech in project.techs %}
+                    <li><small>{{ tech }}</small></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    {% endfor %}
+</div>

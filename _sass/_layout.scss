@@ -11,17 +11,17 @@
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 23px;
-    
+
     &,
     &:visited {
-        color: white;    
+        color: white;
     }
-    
+
     &:hover {
         text-decoration: underline;
     }
 }
- 
+
 .navbar {
     min-height: 56px;
     background-color: $brand-color;
@@ -34,7 +34,7 @@
         > a {
             color: #FCFFFE;
             padding-top: 18px;
-            
+
             &:focus,
             &:hover {
                 text-decoration: underline;
@@ -53,7 +53,7 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     background-color: rgba(66, 66, 66, 0.95);
-    
+
     &:hover {
         .love {
             color: #FC0081;
@@ -72,7 +72,7 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-    
+
     > li {
         > a {
             color: rgba(252,248,227,0.95);
@@ -149,7 +149,7 @@
     > h1 {
         > a {
             color: #25AB89;
-            
+
             &:visited {
                 color: #25AB89;
             }
@@ -244,3 +244,89 @@
     display: block;
     text-align: center;
 }
+
+/**
+ * Projects
+ */
+.projects-header {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: $brand-color;
+}
+
+.projects-category {
+    text-align: center;
+    margin-bottom: 1em;
+    color: $brand-color;
+}
+
+.grid-container {
+    margin: 0.5em 2em 3em 2em;
+    text-align: center;
+}
+
+.grid-item {
+    display: inline-block;
+    margin: 20px;
+    width: 252px;
+    vertical-align: top;
+}
+
+.grid-thumb {
+    position: relative;
+    border: 2px solid $grey-color;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+
+    .grid-info {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.85);
+        opacity: 0;
+        transition: opacity .25s ease;
+
+        .item-description {
+            display: inline;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+    }
+
+    &:hover .grid-info {
+        opacity: 1;
+    }
+}
+
+.item-title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.5em;
+    display: block;
+
+    a {
+        color: lighten($brand-color, 10%);
+    }
+}
+
+.item-techs {
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    color: $grey-color;
+
+    li {
+        display: inline;
+        margin-right: 10px;
+    }
+}
+
+

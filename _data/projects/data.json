@@ -1,0 +1,36 @@
+[
+    {
+        "title": "ClapprBoard",
+        "link": "http://clapprboard.tiagomartins.xyz",
+        "description": "TV Show tracking application.",
+        "thumb": "/assets/projects/clapprboard.jpg",
+        "techs":
+            [
+                "Node.JS",
+                "Angular",
+                "MongoDB",
+                "Bootstrap"
+            ]
+    },
+    {
+        "title": "Points",
+        "link": "http://tiagomartins.xyz/Points/",
+        "description": "Interactive Canvas API experiment.",
+        "thumb": "/assets/projects/points.jpg",
+        "techs":
+            [
+                "Javascript",
+                "Canvas API"
+            ]
+    },
+    {
+        "title": "Singly Linked List",
+        "link": "http://tiagomartins.xyz/Singly-Linked-List/",
+        "description": "Front-End for a Singly Linked List implementation in Javascript.",
+        "thumb": "/assets/projects/linkedlist.jpg",
+        "techs":
+            [
+                "Javascript"
+            ]
+    }
+]
