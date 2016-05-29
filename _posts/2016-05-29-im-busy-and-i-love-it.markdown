@@ -8,6 +8,9 @@ I got invited to visit [Scytale's](http://www.scytale.pt) offices and work with 
 of the trip and I got to work on a project for a real client, with a real team!
 So, my stay in Braga was awesome, it's a beautiful city, especially at night, there is a calm feeling about Braga's night which is so awesome! Everyone was nice and
 friendly, which made my stay even better!
+
+<!--break-->
+
 After the three days were over, I was to be expecting an answer from the CEO of whether I'd be hired or not.
 I got very good feedback the whole time I was there, which is good. They seemed interested when I left and I was happy I might have a chance at working at a real
 Web Development company! If I do, I'll finally be able to get my life back on track, finish my degree and get my way overdue driver's license! All in good time though.
